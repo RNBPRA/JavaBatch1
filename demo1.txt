@@ -12,3 +12,30 @@ or push an existing repository from the command line
 git remote add origin https://github.com/RNBPRA/JavaBatch1.git
 git branch -M main
 git push -u origin main
+
+--------------------------------------------------------------------
+
+git config --global user.name "your username" //First time login
+
+git config --global user.email "your email"  //First time login
+----------------------------------------------------------------------
+step 1:  git init //only once
+
+Step 2:  git add <filename>
+
+Step 3:  git commit -m "First commit"
+
+Step 4:  git remote add origin https://github.com/RNBPRA/JavaBatch1.git //only once
+
+Step 5:  git push origin master
+
+
+--------------------------------------------------------------------
+to add updates in previous file
+
+git add . 
+git status // to tack the files 
+git commit -m "First commit"
+git push origin master
+
+
